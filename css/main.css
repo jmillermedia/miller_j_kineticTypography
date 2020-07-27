@@ -66,9 +66,17 @@ body {
 	text-decoration: underline;
 }
 
+.kineticTypography * {
+	animation-play-state: paused;
+}
+
+.kineticTypography {
+	animation-play-state: paused;
+}
+
 .starShine {
 	opacity: 0%;
-	width: 15px;
+	width: 35px;
 	position: absolute;
 }
 
@@ -91,9 +99,8 @@ body {
 }
 
 .shine4 {
-	width: 15px;
 	margin-left: -70px;
-	margin-top:548px;
+	margin-top:560px;
 	animation: starAnimation 4s 14.83s forwards;
 }
 
@@ -104,18 +111,20 @@ body {
 }
 
 .shine6 {
-	margin-top: 10px;
+	margin-top: 150px;
+	margin-left: -400px;
 	animation: starAnimation 4s 19.3s forwards;
 }
 
 .shine7 {
 	margin-top: 560px;
-	animation: starAnimation 4s 7.9s forwards;
+	margin-left: -360px;
+	animation: starAnimation 4s 21.62s forwards;
 }
 
 .shine8 {
 	margin-top: 400px;
-	animation: starAnimation 4s 7.9s forwards;
+	animation: starAnimation 4s 24.18s forwards;
 }
 
 .enterpriseShip {
@@ -129,15 +138,15 @@ body {
 }
 
 .mainAnimation {
- width: 1200px;
- height: 800px;
- background-image: url(../images/spaceBG.jpg);
- margin: 0px auto;
- border: 3px solid rgb(53, 53, 53);
- border-radius: 25px;
- display: flex;
- flex-direction: row;
- justify-content: space-around;
+	width: 1200px;
+	height: 800px;
+	background-image: url(../images/spaceBG.jpg);
+	margin: 0px auto;
+	border: 3px solid rgb(53, 53, 53);
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 .spaceAnimation {
@@ -316,17 +325,17 @@ body {
 
 .exploreWord {
 	opacity: 0%;
-	animation: missionClip 10s 36.04s forwards;
+	animation: missionClip 8s 36.04s forwards;
 }
 
 .strangeWord {
 	opacity: 0%;
-	animation: missionClip 9.49s 36.51s forwards;
+	animation: missionClip 7.49s 36.51s forwards;
 }
 
 .newWorldWord {
 	opacity: 0%;
-	animation: missionClip 8.88s 37.22s forwards;
+	animation: missionClip 6.88s 37.22s forwards;
 }
 
 .seek {
@@ -335,7 +344,7 @@ body {
 	text-decoration: underline;
 	margin-top: 385px;
 	margin-left: -180px;
-	animation: missionClip 5s 39.77s forwards;
+	animation: missionClip 4s 39.77s forwards;
 }
 
 .new-life {
@@ -386,31 +395,31 @@ body {
 .no {
 	opacity: 0%;
 	margin-top: 250px;
-	animation: missionClip 5s 45.25s forwards;
+	animation: missionClip 4s 45.25s forwards;
 }
 
 .one {
 	opacity: 0%;
 	margin-top: 300px;
-	animation: missionClip 5s 45.35s forwards;
+	animation: missionClip 4s 45.35s forwards;
 }
 
 .has {
 	opacity: 0%;
 	margin-top: 350px;
-	animation: missionClip 5s 45.60s forwards;
+	animation: missionClip 3.7s 45.60s forwards;
 }
 
 .gone {
 	opacity: 0%;
 	margin-top: 400px;
-	animation: missionClip 5s 45.99s forwards;
+	animation: missionClip 3.2s 45.99s forwards;
 }
 
 .before {
 	opacity: 0%;
 	margin-top: 450px;
-	animation: missionClip 5s 46.50s forwards;
+	animation: missionClip 3.3s 46.50s forwards;
 }
 
 .mainTitle {
@@ -435,13 +444,13 @@ body {
 	transform: rotate(0deg);
 	}
 	25% {
-		opacity: 80%;
+		opacity: 100%;
 	}
 	50% {
-		opacity: 60%;
+		opacity: 80%;
 	}
 	75% {
-		opacity: 80%;
+		opacity: 100%;
 	}
 	100% {
 		opacity: 0%;
