@@ -66,12 +66,22 @@ body {
 	text-decoration: underline;
 }
 
-.kineticTypography * {
-	animation-play-state: paused;
+#playAnimation {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+	font-family: TNGCredits;
+	color: #359dfb;
+	background-color: black;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	border-color: rgb(53, 53, 53);
 }
 
-.kineticTypography {
-	animation-play-state: paused;
+#playAnimation:hover {
+	color: #8ac5f8;
+	cursor: pointer;
 }
 
 .starShine {
@@ -101,13 +111,13 @@ body {
 .shine4 {
 	margin-left: -70px;
 	margin-top:560px;
-	animation: starAnimation 4s 14.83s forwards;
+	animation: starAnimation 4s 14.25s forwards;
 }
 
 .shine5 {
 	margin-left: 371px;
 	margin-top: 686px;
-	animation: starAnimation 4s 17.3s forwards;
+	animation: starAnimation 4s 17s forwards;
 }
 
 .shine6 {
