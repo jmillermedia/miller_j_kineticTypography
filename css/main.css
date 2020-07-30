@@ -3,3 +3,551 @@
 .hidden {
 	display: none;
 }
+
+@font-face {
+	font-family: "TNGCredits";
+	src: url("../fonts/TNGCredits.woff") format("woff"),
+		url("../fonts/TNGCredits.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Splendid66";
+	src: url(../fonts/SplendidN.woff) format("woff"),
+		url(../fonts/SplendidN.woff2) format("woff2");
+		font-weight: normal;
+		font-style: normal;
+}
+
+body {
+	background-color: rgb(0, 0, 0);
+	font-family: 'TNGCredits';
+	color: #359dfb;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+#STLogo {
+	width: 60px;
+	padding-left: 32px;
+	padding-bottom: 16px;
+}
+
+.mainNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#headerNav {
+	font-family: 'TNGCredits';
+	font-size: 24px;
+	display: flex;
+	align-self: flex-end;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-bottom: 16px;
+	padding-right: 32px;
+}
+
+#headerNav li a {
+	color: #359dfb;
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+#headerNav a:hover {
+	transition: ease-in 0.25s;
+	color: #8ac5f8;
+	text-decoration: underline;
+}
+
+#playAnimation {
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+	font-family: TNGCredits;
+	color: #359dfb;
+	background-color: black;
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	border-color: rgb(53, 53, 53);
+}
+
+#playAnimation:hover {
+	color: #8ac5f8;
+	cursor: pointer;
+}
+
+.starShine {
+	opacity: 0%;
+	width: 35px;
+	position: absolute;
+}
+
+.shine1 {
+	margin-left: -394px;
+	margin-top: 86px;
+	animation: starAnimation 4s 7.9s forwards;
+}
+
+.shine2 {
+	margin-left: 251px;
+	margin-top: 357px;
+	animation: starAnimation 4s 10s forwards;
+}
+
+.shine3 {
+	margin-left: -229px;
+	margin-top: 260px;
+	animation: starAnimation 4s 11.9s forwards;
+}
+
+.shine4 {
+	margin-left: -70px;
+	margin-top:560px;
+	animation: starAnimation 4s 14.25s forwards;
+}
+
+.shine5 {
+	margin-left: 371px;
+	margin-top: 686px;
+	animation: starAnimation 4s 17s forwards;
+}
+
+.shine6 {
+	margin-top: 150px;
+	margin-left: -400px;
+	animation: starAnimation 4s 19.3s forwards;
+}
+
+.shine7 {
+	margin-top: 560px;
+	margin-left: -360px;
+	animation: starAnimation 4s 21.62s forwards;
+}
+
+.shine8 {
+	margin-top: 400px;
+	animation: starAnimation 4s 24.18s forwards;
+}
+
+.enterpriseShip {
+	opacity: 0%;
+	position: absolute;
+	width: 180px;
+	margin-left: -500px;
+	animation: enterpriseFlyLeft 2s 7.2s forwards;
+	margin-top: 400px;
+	
+}
+
+.mainAnimation {
+	width: 1200px;
+	height: 800px;
+	background-image: url(../images/spaceBG.jpg);
+	margin: 0px auto;
+	border: 3px solid rgb(53, 53, 53);
+	border-radius: 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.spaceAnimation {
+	opacity: 0%;
+	font-size: 120px;
+	letter-spacing: 1px;
+	animation: spaceAnimate 2s 25s  forwards ;
+	margin: 0px auto;
+	padding-top: 300px;
+	position: absolute;
+	margin-left: 50px;
+}
+
+.TFFSection {
+	font-size: 80px;
+	position: absolute;
+	/* display: none; */
+}
+
+.TFF1, .TFF2, .TFF3, .TFF4 {
+	margin-left: 368px;
+}
+
+.TFF4 {
+	color: #2675b9;
+	opacity: 0%;
+	animation: fadeInOut 1.74s 27.50s forwards;
+}
+
+.TFF3 {
+	color: #1b5281;
+	opacity: 0%;
+	animation: fadeInOut 1.49s 27.25s forwards;
+}
+
+.TFF2 {
+	color: #13395a;
+	opacity: 0%;
+	animation: fadeInOut 1.24s 27s forwards;
+}
+
+.TFF1 {
+	color: #091c2c;
+	opacity: 0%;
+	animation: fadeInOut 1s 26.76s forwards;
+}
+
+.TFF0 {
+	color: #9bd0fd;
+	opacity: 0%;
+	animation: fadeInOut 4.5s 26.76s forwards;
+}
+
+.TFFMain {
+	opacity: 0%;
+	animation: fadeInOut 3.5s 26.76s forwards;
+}
+
+.enterpriseShip2 {
+	opacity: 0%;
+	position: absolute;
+	width: 180px;
+	margin-left: -500px;
+	animation: enterpriseFlyLeft 3.08s 29.85s forwards;
+	margin-top: 400px;
+}
+
+.voyagesFull {
+	font-size: 45px;
+	position: absolute;
+	margin-top: 400px;
+}
+
+.these {
+	opacity: 0%;
+	animation: fadeInOut 3.08s 30s forwards;
+}
+
+.are {
+	opacity: 0%;
+	animation: fadeInOut 3.08s 30.18s forwards;
+}
+
+.the {
+	opacity: 0%;
+	animation: fadeInOut 3.08s 30.28s forwards;
+}
+
+.voyages {
+	opacity: 0%;
+	animation: fadeInOut 3.08s 30.45s forwards;
+}
+
+.of {
+	opacity: 0%;
+	animation: fadeInOut 3.08s 30.95s forwards;
+}
+
+.the2 {
+	opacity: 0%;
+	animation: fadeInOut 3.08s 31.2s forwards;
+}
+
+.starship {
+	opacity: 0%;
+	animation: fadeInOut 3.08s 31.6s forwards;
+}
+
+.enterprise {
+	opacity: 0%;
+	animation: fadeInOut 3.85s 31.85s forwards;
+}
+
+.continuing {
+	opacity: 0%;
+	font-size: 2em;
+	margin-left: -125px;
+	position: absolute;
+	margin-top: 110px;
+	animation: missionClip 8.96s 34.1s forwards;
+}
+
+
+.clipBoard {
+	position: absolute;
+	width: 450px;
+	margin-top: 150px;
+	margin-left: -250px;
+	opacity: 0%;
+	animation: missionClip 8.96s 35.12s forwards;
+}
+
+.starfleet {
+	position: absolute;
+	width: 60px;
+	margin-top: 205px;
+	margin-left: -180px;
+	opacity: 0%;
+	animation: missionClip 8.96s 35.12s forwards;
+}
+
+.mission {
+	margin-top: 230px;
+	margin-left: -110px;
+	font-family: "Splendid66";
+	font-size: 60px;
+	color: black;
+	z-index: 2;
+	position: absolute;
+	opacity: 0%;
+	animation: missionClip 8.96s 35.12s forwards;
+}
+
+.missionObjectives {
+	color: rgb(0, 0, 0);
+	font-family: "Splendid66";
+	font-size: 1.2em;
+	position: absolute;
+}
+
+.magGlass {
+	opacity: 0%;
+	position: absolute;
+	width: 80px;
+	margin-top: 430px;
+	margin-left: -170px;
+	z-index: 1;
+	animation: magGlassMove 2.1s 40.26s forwards;
+}
+
+.explore {
+	font-size: 1.5em;
+	margin-top: 350px;
+	margin-left: -180px;
+}
+
+.exploreWord {
+	opacity: 0%;
+	animation: missionClip 8s 36.04s forwards;
+}
+
+.strangeWord {
+	opacity: 0%;
+	animation: missionClip 7.49s 36.51s forwards;
+}
+
+.newWorldWord {
+	opacity: 0%;
+	animation: missionClip 6.88s 37.22s forwards;
+}
+
+.seek {
+	opacity: 0%;
+	font-size: 2em;
+	text-decoration: underline;
+	margin-top: 385px;
+	margin-left: -180px;
+	animation: missionClip 4s 39.77s forwards;
+}
+
+.new-life {
+	opacity: 0%;
+	margin-top: 450px;
+	margin-left: -50px;
+	animation: missionClip 5s 40.26s forwards;
+}
+
+.new-civilizations {
+	opacity: 0%;
+	margin-top: 500px;
+	margin-left: -50px;
+	animation: missionClip 5s 40.26s forwards;
+}
+
+.boldlyWords {
+	position: absolute;
+	font-size: 48px;
+}
+
+.To {
+	opacity: 0%;
+	margin-top: 50px;
+	animation: missionClip 5s 44.17s forwards;
+}
+
+.boldly {
+	opacity: 0%;
+	margin-top: 100px;
+	font-size: 56px;
+	letter-spacing: 8px;
+	animation: missionClip 4.8s 44.37s forwards;
+}
+
+.go {
+	opacity: 0%;
+	margin-top: 150px;
+	animation: missionClip 4.1s 44.90s forwards;
+}
+
+.where {
+	opacity: 0%;
+	margin-top: 200px;
+	animation: missionClip 3.9s 45.10s forwards;
+}
+
+.no {
+	opacity: 0%;
+	margin-top: 250px;
+	animation: missionClip 4s 45.25s forwards;
+}
+
+.one {
+	opacity: 0%;
+	margin-top: 300px;
+	animation: missionClip 4s 45.35s forwards;
+}
+
+.has {
+	opacity: 0%;
+	margin-top: 350px;
+	animation: missionClip 3.7s 45.60s forwards;
+}
+
+.gone {
+	opacity: 0%;
+	margin-top: 400px;
+	animation: missionClip 3.2s 45.99s forwards;
+}
+
+.before {
+	opacity: 0%;
+	margin-top: 450px;
+	animation: missionClip 3.3s 46.50s forwards;
+}
+
+.mainTitle {
+	opacity: 0%;
+	position: absolute;
+	font-size: 8em;
+	margin-top: 250px;
+	animation: missionClip 5s 49.9s forwards;
+}
+
+.mainTitle2 {
+	opacity: 0%;
+	position: absolute;
+	font-size: 4em;
+	margin-top: 380px;
+	animation: missionClip 5s 50.50s forwards;
+}
+
+@keyframes starAnimation {
+	0%{
+	opacity: 0%;
+	transform: rotate(0deg);
+	}
+	25% {
+		opacity: 100%;
+	}
+	50% {
+		opacity: 80%;
+	}
+	75% {
+		opacity: 100%;
+	}
+	100% {
+		opacity: 0%;
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes enterpriseFlyLeft {
+	0% {
+		opacity: 0%;
+		margin-left: -500px;
+	}
+	50% {
+		opacity: 100%;
+	}
+	100% {
+		opacity: 0%;
+		margin-left: 500px;
+		display: none;
+	}
+}
+
+@keyframes spaceAnimate {
+	0%{
+		opacity: 0%;
+		letter-spacing: 1px;
+	}
+	90% {
+		opacity: 100%;
+		letter-spacing: 120px;
+	}
+	100% {
+		opacity: 0%;
+		letter-spacing: 120px;
+		display: none;
+	}
+}
+
+@keyframes fadeInOut {
+	0%{
+		opacity: 0%;
+	}
+	50% {
+		opacity: 100%;
+	}
+	100% {
+		opacity: 0%;
+		display: none;
+	}
+}
+
+@keyframes missionClip {
+	0% {
+		opacity: 0%;
+	}
+	10% {
+		opacity: 90%;
+	}
+	90% {
+		opacity: 90%;
+	}
+	100% {
+		opacity: 0%;
+		display: none;
+	}
+}
+
+@keyframes magGlassMove {
+	0% {
+		opacity: 100%;
+		margin-top: 430px;
+		margin-left: -130px;
+	}
+	25% {
+		margin-top: 430px;
+		margin-left: -30px;
+	}
+	50% {
+		margin-top: 490px;
+		margin-left: -130px;
+	}
+	75% {
+		opacity: 100%;
+		margin-top: 490px;
+		margin-left: 70px;
+	}
+	100% {
+		opacity: 0%;
+	}
+}
